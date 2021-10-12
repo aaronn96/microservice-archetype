@@ -15,8 +15,8 @@
 	<properties>
 		<main.basedir>${project.parent.basedir}</main.basedir>
 		<javax.activation.version>1.2.0</javax.activation.version>
-		<jaxb.version>2.3.1</jaxb.version>
-		<com-sun.version>3.0.0</com-sun.version>
+		<jaxb.version>2.4.0-b180830.0359</jaxb.version>
+		<com-sun.version>3.0.1</com-sun.version>
 		<swagger.version>3.0.0</swagger.version>
 		<logstash.version>1.14.1</logstash.version>
 	</properties>
