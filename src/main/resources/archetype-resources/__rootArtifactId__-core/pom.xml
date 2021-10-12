@@ -5,7 +5,7 @@
 	<artifactId>${artifactId}</artifactId>
 	<parent>
 		<groupId>${groupId}</groupId>
-		<artifactId>${rootArtifact}</artifactId>
+		<artifactId>${rootArtifactId}</artifactId>
 		<version>${version}</version>
 	</parent>
 	<description>Core Service module</description>
