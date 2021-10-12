@@ -31,9 +31,9 @@
 	<inceptionYear>${currentYear}</inceptionYear>
 
 	<modules>
+		<module>${artifactId}-jpa</module>
 		<module>${artifactId}-core</module>
 		<module>${artifactId}-boot</module>
-		<module>${artifactId}-jpa</module>
 	</modules>
 
 	<dependencies>
