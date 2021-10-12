@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>${artifactId}-core</artifactId>
+	<artifactId>${artifactId}</artifactId>
 	<parent>
 		<groupId>${groupId}</groupId>
-		<artifactId>${artifactId}</artifactId>
+		<artifactId>${rootArtifact}</artifactId>
 		<version>${version}</version>
 	</parent>
 	<description>Core Service module</description>
@@ -17,7 +17,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>${groupId}</groupId>
-			<artifactId>${artifactId}-jpa</artifactId>
+			<artifactId>${rootArtifact}-jpa</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
