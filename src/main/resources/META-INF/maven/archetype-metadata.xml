@@ -22,7 +22,7 @@
 		</fileSet>
 	</fileSets>
 	<modules>
-		<module id="${rootArtifactId}-jpa" dir="__rootArtifactId__-jpa" name="${rootArtifactId}-jpa">
+		<module id="${artifactId}-jpa" dir="__artifactId__-jpa" name="${artifactId}-jpa">
 			<fileSets>
 				<fileSet filtered="true" encoding="UTF-8">
 					<directory>src/main/java/__packageInPathFormat__</directory>
@@ -50,7 +50,7 @@
 				</fileSet>
 			</fileSets>
 		</module>
-		<module id="${rootArtifactId}-core" dir="__rootArtifactId__-core" name="${rootArtifactId}-core">
+		<module id="${artifactId}-core" dir="__artifactId__-core" name="${artifactId}-core">
 			<fileSets>
 				<fileSet filtered="true" encoding="UTF-8">
 					<directory>src/main/java/__packageInPathFormat__</directory>
@@ -78,7 +78,7 @@
 				</fileSet>
 			</fileSets>
 		</module>
-		<module id="${rootArtifactId}-boot" dir="__rootArtifactId__-boot" name="${rootArtifactId}-boot">
+		<module id="${artifactId}-boot" dir="__artifactId__-boot" name="${artifactId}-boot">
 			<fileSets>
 				<fileSet filtered="true" encoding="UTF-8">
 					<directory>src/main/java/__packageInPathFormat__</directory>

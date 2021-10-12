@@ -5,7 +5,7 @@
 	<artifactId>${artifactId}-core</artifactId>
 	<parent>
 		<groupId>${groupId}</groupId>
-		<artifactId>${rootArtifactId}</artifactId>
+		<artifactId>${artifactId}</artifactId>
 		<version>${version}</version>
 	</parent>
 	<description>Core Service module</description>
@@ -17,7 +17,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>${groupId}</groupId>
-			<artifactId>${rootArtifactId}-jpa</artifactId>
+			<artifactId>${artifactId}-jpa</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
