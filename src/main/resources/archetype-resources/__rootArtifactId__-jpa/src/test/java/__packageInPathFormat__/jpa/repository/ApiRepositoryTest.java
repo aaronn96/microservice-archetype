@@ -1,4 +1,4 @@
-package com.aprades.test.jpa.repository;
+package ${package}.jpa.repository;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,19 +1,21 @@
 package ${package}.core.service;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
+import ${package}.core.dto.ApiDto;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
 
-@RunWith(MockitoJUnitRunner.class)
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@ExtendWith(MockitoExtension.class)
 public class ApiServiceTest {
 
-    private ApiService apiService = new ApiService();
+    private final ApiService apiService = new ApiService();
 
     @Test
     public void whenHelloEmpty() {
         ApiDto apiDto = new ApiDto("Hello World");
-        Assert.assertEquals(apiDto, apiService.isApiUp());
+        assertEquals(apiDto, apiService.isApiUp());
     }
 
 }
