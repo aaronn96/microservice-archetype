@@ -1,6 +1,6 @@
 #set($pound='#')
 #set($dollar='$')
-#set($escape='\'')
+#set($escape='\')
 package ${package}.core;
 
 import lombok.Data;

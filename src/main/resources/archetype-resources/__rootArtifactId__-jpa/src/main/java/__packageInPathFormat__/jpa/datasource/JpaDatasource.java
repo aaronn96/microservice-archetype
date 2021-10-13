@@ -1,6 +1,6 @@
 #set($pound='#')
 #set($dollar='$')
-#set($escape='\'')
+#set($escape='\')
 package ${package}.jpa.datasource;
 
 import org.springframework.beans.factory.annotation.Qualifier;
