@@ -20,6 +20,7 @@
 		<swagger.version>3.0.0</swagger.version>
 		<logstash.version>1.14.1</logstash.version>
 		<spring-cloud.version>2020.0.4</spring-cloud.version>
+		<resilience4j-version>2.0.2</resilience4j-version>
 	</properties>
 
 	<dependencies>
@@ -40,7 +41,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
+			<artifactId>spring-cloud-circuitbreaker-resilience4j</artifactId>
+			<version>${resilience4j-version}</version>
 		</dependency>
 		<dependency>
 			<groupId>biz.paluch.logging</groupId>

@@ -1,7 +1,8 @@
+#set($pound='#')
+#set($dollar='$')
+#set($escape='\'')
 package ${package}.jpa.datasource;
-        #set($pound='#')
-        #set($dollar='$')
-        #set($escape='\' )
+
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.jdbc.DataSourceBuilder;
@@ -29,13 +30,13 @@ class JpaDatasource {
     @Value("${dollar}{spring.datasource.driver-class-name:com.mysql.cj.jdbc.Driver}")
     private String driver;
 
-    @Value("${dollar}{spring.datasource.url}")
+    @Value("${dollar}{spring.datasource.url:url}")
     private String url;
 
-    @Value("${dollar}{spring.datasource.username}")
+    @Value("${dollar}{spring.datasource.username:username}")
     private String username;
 
-    @Value("${dollar}{spring.datasource.password}")
+    @Value("${dollar}{spring.datasource.password:password}")
     private String password;
 
     @Value("${dollar}{hibernate.dialect:org.hibernate.dialect.MySQL5InnoDBDialect}")
