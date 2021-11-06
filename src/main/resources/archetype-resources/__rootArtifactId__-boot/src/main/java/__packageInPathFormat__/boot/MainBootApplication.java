@@ -1,6 +1,6 @@
 package ${package}.boot;
 
-import com.aprades.discovery.service.core.AppInfoBean;
+import ${package}.core.AppInfoBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
