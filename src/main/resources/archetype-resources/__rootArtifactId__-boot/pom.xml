@@ -19,7 +19,6 @@
 		<com-sun.version>3.0.1</com-sun.version>
 		<swagger.version>3.0.0</swagger.version>
 		<logstash.version>1.14.1</logstash.version>
-		<spring-cloud.version>2020.0.4</spring-cloud.version>
 		<resilience4j-version>2.0.2</resilience4j-version>
 	</properties>
 
@@ -78,28 +77,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>2.5.5</version>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
-				<configuration>
-					<release>17</release>
-					<verbose>true</verbose>
-					<fork>true</fork>
-				</configuration>
+				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
 	</build>
-
-	<profiles>
-		<profile>
-			<id>default</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-		</profile>
-	</profiles>
 
 </project>
